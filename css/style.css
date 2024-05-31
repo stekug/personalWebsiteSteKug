@@ -5,11 +5,50 @@
 }
 
 * {
-    outline: 1px solid black;
+    /* outline: 1px solid rgb(167, 102, 42); */
+}
+
+:root {
+    /* --pico-spacing: 0; */
+    --pico-block-spacing-vertical: 0;
 }
 
 body {
     margin: 0;
+    padding: 0;
+    font-family: 'roboto', 'arial', 'helvetica';
+}
+
+header {
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #291d50;
+}
+
+nav ol:first-of-type,
+nav ul:first-of-type {
+    margin: 0;
+}
+
+.ol {
+    outline: 1px solid yellow;
+}
+
+.nav__links {
+    font-weight: 600;
 }
 
 .visually-hidden {
