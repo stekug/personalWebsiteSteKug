@@ -63,41 +63,6 @@ nav ul:first-of-type {
     border: 0;
 }
 
-/* Define Helpers */
-
-/* Margin */
-
-.mt-1 {
-    margin-top: 1rem;
-}
-.mt-2 {
-    margin-top: 2rem;
-}
-.mt-3 {
-    margin-top: 3rem;
-}
-.mt-4 {
-    margin-top: 4rem;
-}
-.mt-5 {
-    margin-top: 5rem;
-}
-.ml-1 {
-    margin-left: 1rem;
-}
-.ml-2 {
-    margin-left: 2rem;
-}
-.ml-3 {
-    margin-left: 3rem;
-}
-.ml-4 {
-    margin-left: 4rem;
-}
-.ml-5 {
-    margin-left: 5rem;
-}
-
 /* Define Main Section */
 
 .main__section {
@@ -121,10 +86,10 @@ nav ul:first-of-type {
 }
 
 .icon-container__icons {
-    width: 2.5rem;
+    width: 2rem;
 }
 
-/* Set Colors */
+/* Set highlight Colors */
 
 .highlight--green {
     color: #17f1b3;
@@ -134,7 +99,6 @@ nav ul:first-of-type {
     color: #e8479b;
     font-weight: 800;
 }
-
 .filter-pink {
     filter: invert(39%) sepia(95%) saturate(1233%) hue-rotate(302deg)
         brightness(93%) contrast(95%);
