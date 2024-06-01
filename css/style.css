@@ -82,6 +82,21 @@ nav ul:first-of-type {
 .mt-5 {
     margin-top: 5rem;
 }
+.ml-1 {
+    margin-left: 1rem;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+.ml-3 {
+    margin-left: 3rem;
+}
+.ml-4 {
+    margin-left: 4rem;
+}
+.ml-5 {
+    margin-left: 5rem;
+}
 
 /* Define Main Section */
 
@@ -105,6 +120,12 @@ nav ul:first-of-type {
     line-height: 2.25rem;
 }
 
+.icon-container__icons {
+    width: 2.5rem;
+}
+
+/* Set Colors */
+
 .highlight--green {
     color: #17f1b3;
     font-weight: 800;
@@ -112,4 +133,9 @@ nav ul:first-of-type {
 .highlight--pink {
     color: #e8479b;
     font-weight: 800;
+}
+
+.filter-pink {
+    filter: invert(39%) sepia(95%) saturate(1233%) hue-rotate(302deg)
+        brightness(93%) contrast(95%);
 }
