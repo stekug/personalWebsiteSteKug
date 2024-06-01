@@ -5,7 +5,7 @@
 }
 
 * {
-    outline: 1px solid rgb(167, 102, 42);
+    /* outline: 1px solid rgb(167, 102, 42); */
 }
 
 :root {
@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'roboto', 'arial', 'helvetica';
+    background-color: hsl(240, 50%, 7%);
 }
 
 header {
@@ -62,7 +63,27 @@ nav ul:first-of-type {
     border: 0;
 }
 
-/* Defining Main Section */
+/* Define Helpers */
+
+/* Margin */
+
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+.mt-5 {
+    margin-top: 5rem;
+}
+
+/* Define Main Section */
 
 .main__section {
     display: flex;
@@ -73,11 +94,22 @@ nav ul:first-of-type {
 .main__section__profile-picture {
     max-width: 350px;
     border-radius: 50%;
-    margin: 5rem 0 2rem 0;
+    /* margin: 5rem 0 2rem 0; */
 }
 
 .main__section__text-content {
     text-align: center;
-    max-width: 350px;
-    font-size: 1.25rem;
+    max-width: 500px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.25rem;
+}
+
+.highlight--green {
+    color: #17f1b3;
+    font-weight: 800;
+}
+.highlight--pink {
+    color: #e8479b;
+    font-weight: 800;
 }
