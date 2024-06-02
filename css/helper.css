@@ -80,3 +80,8 @@
 .ol-purple {
     outline: 1px solid hsl(318, 100%, 50%);
 }
+
+/* Transition Ease */
+.transition-all {
+    transition: all 175ms ease;
+}
