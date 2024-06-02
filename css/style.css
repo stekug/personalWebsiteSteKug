@@ -98,12 +98,25 @@ nav ul:first-of-type {
 }
 
 /* "Buttons" */
-/* .main__section__cv-download {
+.main__section__cv-download {
     text-decoration: none;
     font-weight: 800;
-    font-size: 1.3rem;
-    background-color: #e8479b;
-} */
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+    background: linear-gradient(0.25turn, #17f1b3, #17b3f1);
+    outline: 2px solid rgba(255, 255, 255, 0);
+    outline-offset: 3px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-radius: 2rem;
+    color: white;
+    box-shadow: 0 0 20px 3px #291d50;
+}
+.main__section__cv-download:hover {
+    outline: 2px solid #17f1b3;
+}
 
 /* Set highlight Colors */
 .highlight--green {

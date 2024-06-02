@@ -181,8 +181,11 @@
 }
 
 /* Transition Ease */
-.transition-all {
+.transition-all-s {
     transition: all 175ms ease;
+}
+.transition-all-m {
+    transition: all 350ms ease;
 }
 
 /* Shadow */
