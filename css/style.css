@@ -74,7 +74,8 @@ nav ul:first-of-type {
 .main__section__profile-picture {
     max-width: 350px;
     border-radius: 50%;
-    /* margin: 5rem 0 2rem 0; */
+    border: 2px solid #181636;
+    box-shadow: 0 0 20px 7px #291d50;
 }
 
 .main__section__text-content {
