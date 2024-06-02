@@ -64,3 +64,19 @@
 .ml-5 {
     margin-left: 5rem;
 }
+/* Outline Tool */
+.ol-red {
+    outline: 1px solid hsl(0, 100%, 50%);
+}
+.ol-orange {
+    outline: 1px solid hsl(29, 100%, 50%);
+}
+.ol-green {
+    outline: 1px solid hsl(115, 100%, 50%);
+}
+.ol-blue {
+    outline: 1px solid hsl(207, 100%, 50%);
+}
+.ol-purple {
+    outline: 1px solid hsl(318, 100%, 50%);
+}

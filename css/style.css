@@ -69,6 +69,7 @@ nav ul:first-of-type {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
 }
 
 .main__section__profile-picture {
