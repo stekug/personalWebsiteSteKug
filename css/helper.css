@@ -85,3 +85,8 @@
 .transition-all {
     transition: all 175ms ease;
 }
+
+/* Shadow */
+.box-shadow-light {
+    box-shadow: 0 0 20px 7px #291d50;
+}
