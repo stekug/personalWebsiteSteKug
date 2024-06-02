@@ -36,6 +36,10 @@ header {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
+a {
+    padding: 0;
+    color: white;
+}
 
 /* Define Navbar */
 ul {
@@ -58,8 +62,16 @@ nav ul:first-of-type {
 }
 
 .nav__links {
+    font-size: 1.3rem;
     font-weight: 600;
-    margin: 0 2.5rem 0 0;
+    margin: 0 2rem;
+    text-decoration: 0;
+}
+
+.nav__links:hover {
+    text-decoration: 0;
+    color: #17f1b3;
+    filter: drop-shadow(0 2px 5px #1f0c36);
 }
 
 /* Define Main Section */
