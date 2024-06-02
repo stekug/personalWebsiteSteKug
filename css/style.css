@@ -61,7 +61,6 @@ nav ul:first-of-type {
 }
 
 /* Define Main Section */
-
 .main__section {
     display: flex;
     flex-direction: column;
@@ -95,12 +94,18 @@ nav ul:first-of-type {
 
 .icon-container__icons:hover {
     transform: scale(1.3);
-    /* box-shadow: 0 0 2px 1px #291d50; */
     filter: drop-shadow(0 0 4px #12102c);
 }
 
-/* Set highlight Colors */
+/* "Buttons" */
+/* .main__section__cv-download {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1.3rem;
+    background-color: #e8479b;
+} */
 
+/* Set highlight Colors */
 .highlight--green {
     color: #17f1b3;
     font-weight: 800;
