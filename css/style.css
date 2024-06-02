@@ -88,7 +88,7 @@ nav ul:first-of-type {
     text-align: center;
     max-width: 500px;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2.25rem;
 }
 
@@ -109,7 +109,7 @@ nav ul:first-of-type {
 /* "Buttons" */
 .main__section__cv-download {
     text-decoration: none;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1.1rem;
     letter-spacing: 0.1rem;
     background: linear-gradient(0.25turn, #17f1b3, #17b3f1);
@@ -130,11 +130,11 @@ nav ul:first-of-type {
 /* Set highlight Colors */
 .highlight--green {
     color: #17f1b3;
-    font-weight: 800;
+    font-weight: 900;
 }
 .highlight--pink {
     color: #e8479b;
-    font-weight: 800;
+    font-weight: 900;
 }
 .filter-pink {
     filter: invert(39%) sepia(95%) saturate(1233%) hue-rotate(302deg)
