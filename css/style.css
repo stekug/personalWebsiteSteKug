@@ -169,3 +169,20 @@ nav ul:first-of-type {
     filter: invert(88%) sepia(69%) saturate(7002%) hue-rotate(79deg)
         brightness(107%) contrast(89%);
 }
+
+/* Dynamic Media */
+@media (min-width: 600px) {
+    .main__section__profile-picture {
+        width: 325px;
+    }
+}
+@media (min-width: 900px) {
+    .main__section__profile-picture {
+        width: 360px;
+    }
+}
+@media (min-width: 1200px) {
+    .main__section__profile-picture {
+        width: 450px;
+    }
+}
