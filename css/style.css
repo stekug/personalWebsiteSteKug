@@ -53,10 +53,13 @@ li {
 }
 
 nav {
-    background-color: #291d50;
+    background-color: rgba(16, 11, 32, 0.8);
     position: fixed;
     width: 100%;
     top: 0;
+    min-height: 66px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
 }
 
 nav ol:first-of-type,
@@ -65,8 +68,8 @@ nav ul:first-of-type {
 }
 
 .nav__links {
-    font-size: 1.3rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 500;
     margin: 0 1.5rem;
     text-decoration: 0;
     word-spacing: 0.2rem;
@@ -98,7 +101,8 @@ nav ul:first-of-type {
 }
 
 .main__section__profile-picture {
-    max-width: 350px;
+    width: 250px;
+    max-width: 550üx;
     border-radius: 50%;
     border: 2px solid #181636;
     box-shadow: 0 0 20px 7px #291d50;
