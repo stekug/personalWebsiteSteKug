@@ -46,6 +46,7 @@ ul {
     list-style-type: none;
     width: 100%;
     justify-content: center;
+    gap: 3rem;
 }
 
 li {
@@ -69,15 +70,15 @@ nav ul:first-of-type {
 }
 
 .nav__links {
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
-    margin: 0 1.5rem;
     text-decoration: 0;
     word-spacing: 0.2rem;
     letter-spacing: 0.05rem;
     border-top: 2px solid #17f1b300;
     border-radius: 0;
     padding: 0;
+    text-align: center;
 }
 .nav__links:hover {
     text-decoration: 0;
@@ -192,5 +193,8 @@ nav ul:first-of-type {
     /* For mobile phones: */
     nav {
         background-color: rgba(16, 11, 32, 1);
+    }
+    .nav__links {
+        font-size: 1rem;
     }
 }
