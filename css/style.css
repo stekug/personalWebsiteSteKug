@@ -93,10 +93,10 @@ nav ul:first-of-type {
     max-width: 100%;
 }
 
-.main__section--var1 {
+.main__section--bg1 {
     background: linear-gradient(0.36turn, #0e0f22, #2f1452);
 }
-.main__section--var2 {
+.main__section--bg2 {
     background: linear-gradient(-0.36turn, #0e0f22, #2f1452);
 }
 
